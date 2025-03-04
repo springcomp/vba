@@ -18,7 +18,7 @@ This instructs the compiler that all variables must be declared before use. In t
 the code is now considered not valid as you must declare the variables and
 their types.
 
-Change the module with the following more correct code below:
+Change the code for the `Sample` _Sub_ with the following, more correct, code below:
 
 ```basic
 Public Sub Sample()
