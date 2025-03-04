@@ -67,6 +67,7 @@ you may use the `Let` keyword to set the return value.
 Public Function MyScalarFunction() As String ' a scalar type
   Let MyScalarFunction = "forty-two"
 End Function
+```
 
 However, if the _Function_ returns an object,
 you must use the `Set` keyword to set the return value.
