@@ -16,7 +16,7 @@ This will stop the program in the Debugger and allow you to inspect the value of
 MsgBox ws.Name
 ```
 
-- Then press the green arrow or <kbd>F5</kdb> to run the program.
+- Then press the green arrow or <kbd>F5</kbd> to run the program.
 
 ![](assets/vba_debugger.png)
 
@@ -40,6 +40,8 @@ The **View|Immediate Window** allows you to run code interactively.
 Debug.Print nCount
 Debug.Print ws.Name
 ```
+
+![](assets/vba_immediate_window.png)
 
 **Note**: in the Watch Window, notice that `nCount` is displayed in
 a single line. Its Type is `Variant/Long`. This is one of the 
